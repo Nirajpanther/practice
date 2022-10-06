@@ -1,0 +1,168 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------- */
+
+.input_marks {
+  display: none;
+}
+
+.background_colour {
+  background-color: #9dcdcf;
+}
+
+table {
+  background-color: #ffffffb8;
+  box-shadow: 0px 0px 19px -8px black;
+  border-collapse: collapse;
+}
+
+tbody > tr:nth-child(odd) {
+  background-color: #dfdfdf;
+}
+
+td {
+  padding: 8px 1vw;
+}
+
+.table_action {
+  width: 9%;
+}
+
+.create_post {
+  text-decoration: none;
+  color: white;
+  background-color: #28a745;
+  padding: 5px 8px;
+  margin-top: 10px;
+  border-radius: 4px;
+}
+
+.form {
+  background-color: #dfdfdf;
+  box-shadow: 0px 0px 1px 1px black;
+  padding: 10px;
+  margin: 2%;
+}
+
+.input_field {
+  width: 99%;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+.edit {
+  color: white;
+  background-color: #28a745;
+  border: hidden;
+  padding: 5px 9px;
+  font-size: 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.delete {
+  color: white;
+  background-color: #dc3545;
+  border: hidden;
+  padding: 5px 9px;
+  font-size: 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.submit {
+  color: white;
+  background-color: #28a745;
+  border: hidden;
+  padding: 5px 9px;
+  font-size: 15px;
+  border-radius: 4px;
+  margin-top: 2%;
+  cursor: pointer;
+}
+
+.error {
+  color: red;
+}
+
+#head_container {
+  display: grid;
+  grid-template-columns: 5% 95%;
+  justify-content: center;
+  align-items: center;
+}
+
+.back_btn {
+  font-size: 35px;
+  text-decoration: none;
+  color: black;
+}
+
+caption {
+  padding: 10px;
+  background-color: #dfdfdf;
+  font-weight: bolder;
+  font-size: 25px;
+  box-shadow: 0px -4px 9px -8px black;
+}
+
+.comment_table {
+  border: 1px solid grey;
+  width: 98%;
+  margin: auto;
+  /* background-color: powderblue; */
+  transition: width 1s;
+}
+
+.comment_table td,
+.comment_table th {
+  padding: 5px;
+}
+
+.comment_btn {
+  color: white;
+  background-color: #007bff;
+  border: hidden;
+  padding: 5px 9px;
+  font-size: 15px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.loader {
+  width: 13%;
+}
+
+.input_comments {
+  width: 98%;
+  padding: 3px;
+}
+
+.div_post {
+  text-align: right;
+  margin: 1%;
+}
+
+#images {
+  margin: 1% 0%;
+}
+
+#uploaded_img {
+  width: 100px;
+  height: 100px;
+  /* display: none; */
+}
